@@ -68,7 +68,7 @@ import "./index.css";
          → You’ll write your code right *inside this list*.
    3️⃣ Use `course.tasks.map()` to loop through each task.
    4️⃣ For each task, render a `<TaskItem />` component.
-   5️⃣ Pass these props:
+   5️⃣ Pass these props: --
          - key={task.id}
          - task={task}
          - onToggle={toggleTask}

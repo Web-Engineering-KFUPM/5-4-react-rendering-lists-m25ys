@@ -29,7 +29,7 @@ import "./index.css";
    ⚠️ To get good marks in the lab, follow the instructions strictly, otherwise you may lose the marks.
 
    =========================================================
-   📘 TASK 1 — Render Course Components
+   📘 TASK 1 — Render Course Components done
    File: src/App.jsx  (YOU ARE HERE)
    ---------------------------------------------------------
    GOAL:

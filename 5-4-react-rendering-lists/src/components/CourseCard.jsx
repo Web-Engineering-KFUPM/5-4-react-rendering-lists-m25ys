@@ -89,11 +89,7 @@ const allDone = course.tasks.length > 0 && course.tasks.every((t) => t.isDone);
             aria-label="Due date"
           />
           <button type="submit" className="primary">Add</button>
-          <ul className="tasks">
-              course.tasks.map()=> {
-                  <TaskItem key={task.id} task={task} onToggle={toggleTask} onDelete={deleteTask}/>
-                  }
-          </ul>
+          
         </div>
       </form>
     </article>

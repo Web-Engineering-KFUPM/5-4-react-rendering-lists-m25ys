@@ -90,8 +90,8 @@ const allDone = course.tasks.length > 0 && course.tasks.every((t) => t.isDone);
           />
           <button type="submit" className="primary">Add</button>
           <ul className="tasks">
-              course.tasks.map()=> 
-                  {<TaskItem key={task.id} task={task} onToggle={toggleTask} onDelete={deleteTask}/>
+              course.tasks.map()=> {
+                  <TaskItem key={task.id} task={task} onToggle={toggleTask} onDelete={deleteTask}/>
                   }
           </ul>
         </div>
